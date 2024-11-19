@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1e293b;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    margin: 0 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .nav .login {
+    color: #9ca3af;
+  }
+  
+  .nav .join-btn {
+    background-color: #3b82f6;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .hero {
+    text-align: center;
+    margin: 4rem 0;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    color: #9ca3af;
+  }
+  
+  .hero-buttons {
+    margin-top: 1.5rem;
+  }
+  
+  .hero-buttons .btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .hero-buttons .primary-btn {
+    background-color: #3b82f6;
+    color: #fff;
+  }
+  
+  .hero-buttons .secondary-btn {
+    border: 2px solid #3b82f6;
+    color: #3b82f6;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+  }
+  
+  .feature {
+    background: #f1f5f9;
+    color: #1e293b;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .feature .icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feature.highlight {
+    background: #3b82f6;
+    color: #fff;
+  }
+  
